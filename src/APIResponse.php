@@ -2,6 +2,9 @@
 
 namespace Ahmedeid46\APIResponse;
 
+use Illuminate\Http\JsonResponse;
+
+
 class APIResponse
 {
    /**
