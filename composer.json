@@ -1,0 +1,54 @@
+{
+    "name": "ahmedeid46/apiresponse",
+    "description": "A library responsible for creating the response in a way that other programmers can understand",
+    "keywords": [
+        "ahmedeid46",
+        "apiresponse"
+    ],
+    "homepage": "https://github.com/ahmedeid46/apiresponse",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ahmedeid",
+            "email": "ahmed.m.eid.2001@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ahmedeid46\\APIResponse\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ahmedeid46\\APIResponse\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ahmedeid46\\APIResponse\\APIResponseServiceProvider"
+            ],
+            "aliases": {
+                "APIResponse": "Ahmedeid46\\APIResponse\\APIResponseFacade"
+            }
+        }
+    }
+}
