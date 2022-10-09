@@ -1,10 +1,10 @@
-# Very short description of the package
+# Api Response
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ahmedeid46/apiresponse.svg?style=flat-square)](https://packagist.org/packages/ahmedeid46/apiresponse)
 [![Total Downloads](https://img.shields.io/packagist/dt/ahmedeid46/apiresponse.svg?style=flat-square)](https://packagist.org/packages/ahmedeid46/apiresponse)
 ![GitHub Actions](https://github.com/ahmedeid46/apiresponse/actions/workflows/main.yml/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+A library responsible for creating the response in a way that other programmers can understand.
 
 ## Installation
 
@@ -41,12 +41,9 @@ If you discover any security related issues, please email ahmed.m.eid.2001@gmail
 ## Credits
 
 -   [ahmedeid](https://github.com/ahmedeid46)
--   [All Contributors](../../contributors)
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-## Laravel Package Boilerplate
 
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
