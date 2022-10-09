@@ -2,7 +2,8 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ahmedeid46/apiresponse.svg?style=flat-square)](https://packagist.org/packages/ahmedeid46/apiresponse)
 [![Total Downloads](https://img.shields.io/packagist/dt/ahmedeid46/apiresponse.svg?style=flat-square)](https://packagist.org/packages/ahmedeid46/apiresponse)
-![GitHub Actions](https://github.com/ahmedeid46/apiresponse/actions/workflows/main.yml/badge.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 
 A library responsible for creating the response in a way that other programmers can understand.
 
